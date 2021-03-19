@@ -1,0 +1,59 @@
+
+h1{
+  background-color: coral;
+  font-size:60px;
+  
+}
+h2{
+  background-color: cornflowerblue;
+  font-size: 40px;
+}
+
+
+.navigation{
+  background-color: aquamarine;
+  padding:20px;
+  position: fixed;
+  top:0;
+  width: 0%;   
+  z-index: 1;
+  }
+
+.announcemet{
+  background-color: yellowgreen;
+  height: 400px;
+  position: relative;
+  margin-top:76px;
+}
+.announcemet h2{
+ position: absolute;
+ top:40%;
+ left:20%;
+ font-size:  60%;
+}
+
+.announcemet h2:hover{
+  color: wheat;
+}
+
+input:focus{
+  border:3px solid red;
+}
+
+
+.main{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:40px 20px;
+}
+.main p{
+  font-size: 2em;
+  margin-bottom: 25px;
+}
+p.highlight{
+  background-color: cadetblue;
+  position: sticky;
+  top:0;
+  z-index: 2;
+}

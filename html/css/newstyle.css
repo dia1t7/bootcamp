@@ -1,0 +1,36 @@
+body{
+  background-image:url(../images/dog.jpg)
+  }
+ 
+
+h1{
+  color: rgb(35, 145, 108);}
+
+h1{
+  font-size:35px;
+  font-style: inherit;
+  text-align:center
+}
+
+p{
+  color: rgb(21, 43, 104);
+  font-size: 15px;
+  font-style: italic;
+}
+
+h2{
+  color:goldenrod;
+  text-decoration: rgb(48, 23, 31) underline 2px;
+}
+
+
+ul li{
+    color: rgb(167, 92, 98);
+    list-style: square inside;
+    font-size: 15px;
+}
+
+ol li{
+  color: rgb(49, 89, 223);
+  list-style: square inside;
+  }

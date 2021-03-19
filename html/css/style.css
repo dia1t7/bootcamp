@@ -1,0 +1,83 @@
+body{
+  background-image: url(../images/dog.jpg);
+  background-size: 400px 300px;
+  background-repeat: no-repeat;
+  height:1200px;
+  background-attachment: scroll;
+}
+table{
+  empty-cells: hide;
+  border-collapse: collapse;
+}
+img{
+  float:left;
+}
+p{
+  margin: 50px 30px 80px 10px;
+  border: black 7px dotted;
+  padding: 20px 50px 30px 80px;
+  /* width:100px;
+  height: 200px;
+  clear: right;
+  box-sizing:content-box;
+  overflow: scroll; */
+}
+
+h1{
+  color: cornflowerblue;
+}
+h1.title{
+  color: rgb(221, 68, 8);
+}
+h1{
+  background-color: rgb(45, 196, 78);
+  color: yellow;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 80px;
+  font-weight: lighter;
+  font-style: oblique;
+  text-transform: uppercase;
+  text-decoration: rgb(231, 64, 22) 5px underline;
+  text-align: center;
+  text-shadow: indianred 5px line-through;
+  text-indent: 20px;
+  letter-spacing: 10px;
+  word-spacing:  20px;
+}
+ul li{
+  color: lightcoral;
+  list-style: square inside;
+  border:black 2px solid;
+}
+ol li{
+  list-style-type: decimal-leading-zero;
+}
+
+
+p{
+  line-height: 100%;
+}
+/* .brands li{
+  font-size:50px
+} */
+
+div{
+  font-size: 50px;
+}
+.pearent{
+  height: 1200px;
+}
+.div1{
+  background-color: orange;
+  position: fixed;
+  top:60px;
+  left:30px
+  
+}
+.div2{
+  background-color: cornflowerblue;
+  position: relative;
+}
+.div3{
+  background-color: palegreen;
+}
